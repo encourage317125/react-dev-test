@@ -1,0 +1,59 @@
+#root {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonA {
+  background-color: #46139f;
+  color: white;
+}
+
+.buttonA:hover {
+  color: #46139f;
+  background-color: white;
+  border: 1px solid #46139f;
+}
+
+.buttonB {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.btn-close-modal {
+  background-color: white !important;
+  color: #46139f !important;
+  border: 1px solid #46139f !important;
+}
+
+.buttonB:hover {
+  color: #ff7f50;
+  background-color: white;
+  border: 1px solid #ff7f50;
+}
+
+.btn-lg {
+  width: 15rem;
+  height: 7rem;
+  font-size: 1.5rem;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-c {
+  z-index: 9999;
+}
+
+.none {
+  display: none;
+}
+
+.display {
+  display: block;
+  position: absolute;
+  left: 48%;
+  top: 45%;
+}

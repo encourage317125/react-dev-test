@@ -1,0 +1,1 @@
+export const filterDelay = 1000
